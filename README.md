@@ -1,20 +1,40 @@
-# project_ML_Classification_Flipkart_Customer_Service_Satisfaction
+#  Predicting Customer Satisfaction Scores
 <img width="1536" height="1024" alt="download" src="https://github.com/user-attachments/assets/e0bc02cd-48c8-4f28-b2e7-a8a0931f52f7" />
+
+
+# **BUSINESS PROBLEM OVERVIEW**
+
+In today’s fast paced world, giving good customer service is very important to keep customers happy and grow the business. Companies check how well their support teams are doing by using a score called CSAT (Customer Satisfaction Score). But this score is given after the support call is finished. So if the customer is unhappy and gives a low score, it’s already too late to fix the problem or make them happy again.
+
+Flipkart aims to enhance its customer service by understanding the key drivers behind customer satisfaction. The company receives thousands of customer interactions daily through various support channels. These interactions are recorded with multiple features like ticket category, issue type, resolution time, and support channel used. However, predicting whether a customer will be satisfied or not after an interaction remains a challenge.
+
+The goal of this project is to build a machine learning classification model that can predict customer satisfaction (CSAT) based on ticket features and interaction details. This will enable Flipkart to:
+
+*  Proactively identify potential dissatisfaction
+
+* Allocate resources effectively
+
+* Personalize customer support
+
+* Improve service quality and agent performance
+
+# **Project Summary -**
+
 * The main aim of this project is to build a machine learning classification model to predict Customer Satisfaction (CSAT) score for Flipkart's customer service.
 The goal is to find important factors behind customer satisfaction, detect low satisfaction cases early, and help improve overall customer experience.
-* This project is divided into several structured parts:
+* This project is divided into foir main  parts:
 
    1. Data Understanding & Variable Exploration  
-    * Loaded the dataset, understood column types, checked for duplicates and missing values.  
+      * Loaded the dataset, understood column types, checked for duplicates and missing values.  
 
   2. Data Wrangling & EDA & Hypothesis Testing
-   * Cleaned the data, handled outliers, and performed univariate, bivariate, and multivariate analysis to uncover key insights and  Conducted hypothesis testing.  
+      * Cleaned the data, handled outliers, and performed univariate, bivariate, and multivariate analysis to uncover key insights and  Conducted hypothesis testing.  
 
   3. Feature Engineering & ML Modeling  
-   * Engineered relevant features, applied preprocessing, trained multiple ML models, and selected the best one using evaluation metrics.  
+      * Engineered relevant features, applied preprocessing, trained multiple ML models, and selected the best one using evaluation metrics.  
 
   4. Real-World Testing & Conclusion  
-   * Tested the saved model with unseen data, evaluated generalization, and summarized insights with suggestions for future improvements.
+      * Tested the saved model with unseen data, evaluated generalization, and summarized insights with suggestions for future improvements.
 1. **Data Understanding & Variable Exploration** :
   *  In this project  dataset  have  85907 rows and 20 columns and this dataset  focusing on Flipkart’s customer support data.  
   * All the columns are categorized into three data types: object, float64, and int64.
